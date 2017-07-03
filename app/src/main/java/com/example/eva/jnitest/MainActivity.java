@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
              break;
          case R.id.test_close_port:
 
-             Toast.makeText(this,"close",Toast.LENGTH_SHORT).show();
+//             Toast.makeText(this,"close",Toast.LENGTH_SHORT).show();
              mSerialPortUtil.closeSerialPort();
 
              break;
