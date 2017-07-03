@@ -1,0 +1,93 @@
+
+{
+	"buildFiles" : [ "E:/as_work/Jnitest/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"JNItest-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "JNItest",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target JNItest",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot  -DJNItest_EXPORTS -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/jni/JNItest.cpp",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/debug/obj/armeabi/libJNItest.so",
+			"toolchain" : "1976207035"
+		},
+		"NAT-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "NAT",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target NAT",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot  -DNAT_EXPORTS -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/debug/obj/armeabi/libNAT.so",
+			"toolchain" : "1976207035"
+		},
+		"Port-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "Port",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target Port",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot -DPort_EXPORTS  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/cpp/SerialPort.c",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/debug/obj/armeabi/libPort.so",
+			"toolchain" : "1976207035"
+		},
+		"TEST-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "TEST",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target TEST",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot  -DTEST_EXPORTS -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/cpp/TEST.cpp",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/debug/obj/armeabi/libTEST.so",
+			"toolchain" : "1976207035"
+		}
+	},
+	"toolchains" : 
+	{
+		"1976207035" : 
+		{
+			"cCompilerExecutable" : "E:/as_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/as_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

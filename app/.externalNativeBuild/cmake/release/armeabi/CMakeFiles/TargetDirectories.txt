@@ -1,0 +1,6 @@
+E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/TEST.dir
+E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/JNItest.dir
+E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/NAT.dir
+E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/Port.dir
+E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir

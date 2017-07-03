@@ -1,0 +1,17 @@
+# ninja log v5
+1	226	0	CMakeFiles/TEST.dir/src/main/cpp/TEST.cpp.o	63bb2f2bd1df099e
+226	483	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libTEST.so	ca38b12ec33d800
+1	137	0	CMakeFiles/Port.dir/src/main/cpp/SerialPort.c.o	40234ac0c2f6ded4
+138	181	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libPort.so	a873a6f3aa63000a
+0	154	0	CMakeFiles/NAT.dir/src/main/cpp/native-lib.cpp.o	c189eb8e48ed722c
+155	257	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libNAT.so	3a9828da7957be30
+1	166	0	CMakeFiles/JNItest.dir/src/main/jni/JNItest.cpp.o	48c9e5adf261e0ff
+166	270	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libJNItest.so	9449af201ae66ff2
+2	170	0	CMakeFiles/TEST.dir/src/main/cpp/TEST.cpp.o	63bb2f2bd1df099e
+170	516	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libTEST.so	ca38b12ec33d800
+1	156	0	CMakeFiles/Port.dir/src/main/cpp/SerialPort.c.o	40234ac0c2f6ded4
+156	212	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libPort.so	a873a6f3aa63000a
+1	131	0	CMakeFiles/NAT.dir/src/main/cpp/native-lib.cpp.o	c189eb8e48ed722c
+131	213	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libNAT.so	3a9828da7957be30
+1	134	0	CMakeFiles/JNItest.dir/src/main/jni/JNItest.cpp.o	48c9e5adf261e0ff
+135	223	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libJNItest.so	9449af201ae66ff2

@@ -1,0 +1,93 @@
+
+{
+	"buildFiles" : [ "E:/as_work/Jnitest/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"JNItest-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "JNItest",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\release\\x86 --target JNItest",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot  -DJNItest_EXPORTS -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/jni/JNItest.cpp",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/release/obj/x86/libJNItest.so",
+			"toolchain" : "1976207035"
+		},
+		"NAT-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "NAT",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\release\\x86 --target NAT",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot  -DNAT_EXPORTS -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/release/obj/x86/libNAT.so",
+			"toolchain" : "1976207035"
+		},
+		"Port-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "Port",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\release\\x86 --target Port",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot -DPort_EXPORTS  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/cpp/SerialPort.c",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/release/obj/x86/libPort.so",
+			"toolchain" : "1976207035"
+		},
+		"TEST-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "TEST",
+			"buildCommand" : "E:\\as_sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\as_work\\Jnitest\\app\\.externalNativeBuild\\cmake\\release\\x86 --target TEST",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=E:/as_sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/as_sdk/ndk-bundle/sysroot  -DTEST_EXPORTS -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\as_sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/as_sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/as_work/Jnitest/app/src/main/cpp/TEST.cpp",
+					"workingDirectory" : "E:/as_work/Jnitest/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "E:/as_work/Jnitest/app/build/intermediates/cmake/release/obj/x86/libTEST.so",
+			"toolchain" : "1976207035"
+		}
+	},
+	"toolchains" : 
+	{
+		"1976207035" : 
+		{
+			"cCompilerExecutable" : "E:/as_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/as_sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
